@@ -6,7 +6,7 @@ interface Props {
   text: string;
 }
 
-export default function FormButton({ text }: Props) {
+export default function Button({ text }: Props) {
   const { pending } = useFormStatus();
   return (
     <button
